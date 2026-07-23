@@ -1,5 +1,10 @@
 # Create a resource group
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
+resource "azurerm_resource_group" "rg-1" {
+  name     = "lab"
   location = "West Europe"
+}
+# Create a resource group
+resource "azurerm_resource_group" "rg-2" {
+  name     = "production"
+  location = "East Europe"
 }
