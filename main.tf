@@ -8,3 +8,8 @@ resource "azurerm_resource_group" "rg-2" {
   name     = "production"
   location = "East Europe"
 }
+# Create a resource group
+resource "azurerm_resource_group" "rg-3" {
+  name     = "dev"
+  location = "Central Europe"
+}
